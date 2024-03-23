@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { outfit, questrial } from "./fonts";
+import { outfit, questrial, icomoon } from "./fonts";
 import Header from "@/components/Header";
 
 export const metadata: Metadata = {
@@ -14,8 +14,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${questrial.variable} ${outfit.variable}`}>
-      <body className={questrial.className}>
+    <html
+      lang="en"
+      className={`${questrial.variable} ${outfit.variable} ${icomoon.variable}`}
+    >
+      <body className={`${questrial.className} h-[1300px] text-black-100`}>
         <Header />
         {children}
       </body>
