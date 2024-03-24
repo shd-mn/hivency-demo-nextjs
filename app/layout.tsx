@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { outfit, questrial, icomoon } from "./fonts";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Hivency – Creative Digital Agency WordPress Theme",
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={`${questrial.className} h-[1300px] text-black-100`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

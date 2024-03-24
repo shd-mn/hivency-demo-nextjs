@@ -6,6 +6,8 @@ import Portfolio from "./Portfolio";
 import WhyUs from "./WhyUs";
 import OurBlogs from "./OurBlogs";
 import Submit from "./Submit";
+import Testimonial from "./Testimonial";
+import FAQSection from "./FAQSection";
 
 function Home() {
   return (
@@ -14,8 +16,10 @@ function Home() {
       <Services />
       <About />
       <Portfolio />
+      <Testimonial />
       <WhyUs />
       <OurBlogs />
+      <FAQSection />
       <Submit />
     </main>
   );
