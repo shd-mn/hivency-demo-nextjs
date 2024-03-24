@@ -1,4 +1,4 @@
-export interface aboutDataType {
+export interface AboutDataType {
   title: string;
   desc: string;
   link: string;
@@ -6,7 +6,7 @@ export interface aboutDataType {
   color: string;
 }
 
-export const aboutData: aboutDataType[] = [
+export const aboutData: AboutDataType[] = [
   {
     title: "UI/UX design",
     desc: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit",

@@ -3,7 +3,7 @@ import img1 from "@/public/assets/images/blog-image-1.jpg";
 import img2 from "@/public/assets/images/blog-image-2.jpg";
 import img3 from "@/public/assets/images/blog-image-3.jpg";
 
-export interface ourBlogsType {
+export interface OurBlogsType {
   title: string;
   desc: string;
   link: string;
@@ -11,7 +11,7 @@ export interface ourBlogsType {
   color: string;
 }
 
-export const ourBlogs: ourBlogsType[] = [
+export const ourBlogs: OurBlogsType[] = [
   {
     title: "UI/UX Trends",
     desc: "Branding personality: What makes you stand out",

@@ -65,6 +65,7 @@ function Hero() {
                   src={heroImg}
                   alt=""
                   className="h-full w-full object-contain"
+                  quality={100}
                   priority
                 />
               </span>
@@ -72,7 +73,8 @@ function Hero() {
                 <Image
                   src={workImg}
                   alt=""
-                  className="  object-contain"
+                  className="object-contain"
+                  quality={100}
                   priority
                 />
               </span>

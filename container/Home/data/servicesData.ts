@@ -1,4 +1,4 @@
-export interface servicesDataType {
+export interface ServicesDataType {
   title: string;
   desc: string;
   link: string;
@@ -6,7 +6,7 @@ export interface servicesDataType {
   color: string;
 }
 
-export const servicesData: servicesDataType[] = [
+export const servicesData: ServicesDataType[] = [
   {
     title: "User experience",
     desc: "Nemo enim ipsam voluptatem quiamet voluptas asper natur oditut",

@@ -23,7 +23,8 @@ function WhyUs() {
                             <Image
                                 src={whyUsImg}
                                 alt="about img"
-                                className="object-contain"
+                                className="w-full h-full object-contain"
+                                quality={100}
                                 priority
                             />
                         </div>

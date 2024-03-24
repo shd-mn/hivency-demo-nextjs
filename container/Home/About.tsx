@@ -31,7 +31,8 @@ function About() {
               <Image
                 src={aboutImg}
                 alt="about img"
-                className=" h-full w-full object-contain"
+                className="h-auto w-full object-contain"
+                quality={100}
                 priority
               />
             </div>
