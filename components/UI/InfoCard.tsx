@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import wave from "@/public/assets/images/wave.png";
-import type { servicesDataType } from "@/container/Home/data/servicesData";
+import type { ServicesDataType } from "@/container/Home/data/servicesData";
 
-function InfoCard({ data }: { data: servicesDataType[] }) {
+function InfoCard({ data }: { data: ServicesDataType[] }) {
   return (
     <div className="mb-[93px] grid grid-cols-3 gap-6">
       {data.map((item, idx) => (
@@ -16,7 +16,7 @@ function InfoCard({ data }: { data: servicesDataType[] }) {
               <Image src={wave} alt="" className="object-contain" />
             </span>
             <span
-              className={`${item.color} font-icomoon group-hover:animate-rotate-y mb-8 flex h-20 w-20 items-center justify-center rounded-full text-3xl`}
+              className={`${item.color} mb-8 flex h-20 w-20 items-center justify-center rounded-full font-icomoon text-3xl group-hover:animate-rotate-y`}
             >
               {item.icon}
             </span>

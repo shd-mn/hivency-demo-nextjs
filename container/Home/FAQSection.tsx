@@ -1,12 +1,9 @@
 "use client";
-import Image from "next/image";
 import SubTitle from "./components/SubTitle";
 import Title from "./components/Title";
 import "swiper/css";
 import "swiper/css/navigation";
 
-// import bgImg from "/public/assets/images/testimonial.jpg";
-import bgImg from "@/public/assets/images/testimonial.jpg";
 import Accordion from "@/components/UI/Accordion";
 import { faqData } from "./data/faqData";
 

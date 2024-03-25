@@ -1,7 +1,7 @@
 import Link from "next/link";
-import type { aboutDataType } from "@/container/Home/data/aboutData";
+import type { AboutDataType } from "@/container/Home/data/aboutData";
 
-function InfoCard2({ data }: { data: aboutDataType[] }) {
+function InfoCard2({ data }: { data: AboutDataType[] }) {
   return (
     <div className="grid grid-cols-2 gap-12">
       {data.map((item, idx) => (
