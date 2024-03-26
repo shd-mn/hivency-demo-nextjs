@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { outfit, questrial, icomoon } from "./fonts";
+import { outfit, questrial, icomoon, faSolid, faBrand } from "./fonts";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${questrial.variable} ${outfit.variable} ${icomoon.variable}`}
+      className={`${questrial.variable} ${outfit.variable} ${icomoon.variable} ${faBrand.variable} ${faSolid.variable}`}
     >
       <body className={`${questrial.className} h-[1300px] text-black-100`}>
         <Header />

@@ -25,3 +25,23 @@ export const icomoon = localFont({
   ],
   variable: "--font-icomoon",
 });
+export const faSolid = localFont({
+  src: [
+    {
+      path: "../public/fonts/fa-solid-900.woff2",
+      weight: "900",
+      style: "normal",
+    },
+  ],
+  variable: "--font-fa-solid",
+});
+export const faBrand = localFont({
+  src: [
+    {
+      path: "../public/fonts/fa-brands-400.woff2",
+      weight: "900",
+      style: "normal",
+    },
+  ],
+  variable: "--font-fa-brand",
+});

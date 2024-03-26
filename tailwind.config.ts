@@ -20,6 +20,8 @@ const config: Config = {
         outfit: ["var(--font-outfit)"],
         questrial: ["var(--font-questrial)"],
         icomoon: ["var(--font-icomoon)"],
+        faSolid: ["var(--font-fa-solid)"],
+        faBrand: ["var(--font-fa-brand)"],
       },
       colors: {
         primary: "#FFCC7E",
