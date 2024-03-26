@@ -16,7 +16,7 @@
   height: 60px !important;
   border-radius: 50%;
   background: white;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 8px 16px #0000000d;
 }
 
 .swiper-button-prev::after,
@@ -24,3 +24,5 @@
   padding: 10px;
   font-size: 20px !important;
 }
+
+
